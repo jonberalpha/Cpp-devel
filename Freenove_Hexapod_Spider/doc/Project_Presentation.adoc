@@ -1,0 +1,43 @@
+= Spider - Präsentation
+Doc Writer <Jonas Berger>
+V1.00 : last-updated: {localdate}
+:icons: font
+:nofooter:
+:source-highlighter: rouge
+:imgdir: ./img
+:sourcedir: ../.
+
+== HW-Übersicht
+
+image::{imgdir}/Spider.svg[Static,800,align="center"]
+
+== SW-Modulübersicht
+
+image::{imgdir}/StaticArchitecture.svg[Static,align="center"]
+
+== Flussdiagramm
+
+image::{imgdir}/Flowchart.svg[Static,align="center"]
+
+== Application Code
+
+[source,cpp]
+----
+include::{sourcedir}/Application/src/spiderapp.cpp[]
+----
+
+== SpiderCtrl Code
+
+=== SpiderCtrl.hpp
+
+[source,cpp]
+----
+include::{sourcedir}/SpiderCtrl/include/SpiderCtrl.hpp[]
+----
+
+=== SpiderCtrl.cpp
+
+[source,cpp]
+----
+include::{sourcedir}/SpiderCtrl/src/SpiderCtrl.cpp[]
+----
